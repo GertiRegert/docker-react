@@ -1,0 +1,11 @@
+id bigint(20)
+office varchar(255)
+economic_entity varchar(255)
+company varchar(255)
+client varchar(255)
+campaign varchar(255)
+product varchar(255)
+amount double(8,2)
+distribution_id bigint(20)
+created_at timestamp
+updated_at timestamp

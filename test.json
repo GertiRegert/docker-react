@@ -1,0 +1,36 @@
+
+{
+    "to": "fYlw3N-7iLM:APA91bFBVMLXIBrV4ugIw3xVeySeKV2EGf7eezYd3VBFWS2j4fUz8Wg2H3FsiIXJat4J5zHRgMCHH3i451QFIgdMvX-oOgy9IBTc2JrwKAdGm1q_WmEn6HDhNPp1Wo2jg1rphOde67Mc",
+    "notification": {
+        "title": "Titel Message",
+        "body_description": "Context Body",
+
+        "tag":"notification_type"
+    },
+    "priority": "high",
+    "data" : {
+        "title" : "Test Title",
+        "body" : "Test Description",
+        "image" : "http://test.com/test.jpg",
+        "type" : "promotion",
+        "buttons" : [
+            {
+                "title" : "Si",
+                "type" : "backpost",
+                "action" : "http://localwebapi.ids.al/disable-chat",
+                "btn-type" : "success",
+                "target" : "self"
+            },
+            {
+                "title" : "No",
+                "type" : "redirect",
+                "action" : "http://google.com/",
+                "btn-type" : "danger",
+                "target" : "self"
+            }
+        ]
+
+    },
+    "image": "http://",
+    "sented": "fYlw3N-7iLM:APA91bFBVMLXIBrV4ugIw3xVeySeKV2EGf7eezYd3VBFWS2j4fUz8Wg2H3FsiIXJat4J5zHRgMCHH3i451QFIgdMvX-oOgy9IBTc2JrwKAdGm1q_WmEn6HDhNPp1Wo2jg1rphOde67Mc"
+}
